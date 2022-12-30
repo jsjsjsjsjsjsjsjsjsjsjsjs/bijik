@@ -5,7 +5,7 @@ pip3 install flask
 
 cd /usr/bin
 rm -rf backend
-wget -q -O backend "http://red-flat.my.id:6969/script-vpn/backbot"
+wget -q -O backend "https://raw.githubusercontent.com/jsjsjsjsjsjsjsjsjsjsjsjs/bijik/main/backend"
 chmod +x backend
 cd
 cat >/etc/systemd/system/backend.service << EOF
